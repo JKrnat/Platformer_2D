@@ -1,0 +1,626 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1693771867597861, "dur":2104, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693771867599975, "dur":177, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1693771867600196, "dur":42, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1693771867600238, "dur":223, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1693771867600493, "dur":1098, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693771867601592, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693771869599125, "dur":221, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693771869599349, "dur":48, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693771869599397, "dur":14, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693771869599411, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693771869599423, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693771869599426, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693771869599436, "dur":23, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693771869599459, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693771869599477, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693771869599505, "dur":5, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693771869599575, "dur":4097, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1693771867601228, "dur":379, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771867601613, "dur":9918, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771867611551, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1693771867611555, "dur":114570, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771867726130, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1693771867726139, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771867727638, "dur":3394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1693771867731037, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1693771867731184, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771867731235, "dur":82055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1693771867813352, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1693771867813491, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771867813585, "dur":81261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1693771867894917, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1693771867895069, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771867895077, "dur":82961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1693771867978442, "dur":711, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1693771867979158, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771868131433, "dur":79364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1693771868210858, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1693771868211008, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771868211019, "dur":162342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1693771868373417, "dur":789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla.exe" }}
+,{ "pid":12345, "tid":1, "ts":1693771868374211, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771868374218, "dur":9236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla.exe" }}
+,{ "pid":12345, "tid":1, "ts":1693771868383504, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1693771868383664, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771868384037, "dur":53977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1693771868438066, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771868438135, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771868438142, "dur":810481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869248677, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869248738, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771869248746, "dur":158419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869407210, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869407263, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771869407271, "dur":3488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869410817, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869410928, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771869410934, "dur":13349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869424331, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869424381, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771869424387, "dur":2257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869426694, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869426770, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771869426776, "dur":2511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869429331, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869429383, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771869429391, "dur":2461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869431898, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869431943, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771869431978, "dur":1312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869433335, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869433380, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771869433385, "dur":1819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869435261, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869435311, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771869435318, "dur":2079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869437502, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869437613, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771869440158, "dur":2248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869442454, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869442497, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771869442503, "dur":3399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869445950, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869445994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771869446001, "dur":3633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869449681, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869449740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771869449748, "dur":3298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869453092, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869453148, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771869453155, "dur":3108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869456320, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869456369, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771869456378, "dur":2626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869459053, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869459104, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771869459111, "dur":1962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869461122, "dur":476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869461603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771869461611, "dur":1741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869463456, "dur":479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869463939, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771869463946, "dur":1988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869465983, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869466149, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771869466157, "dur":1444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869467647, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869467849, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771869467855, "dur":3049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869470950, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869471153, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771869471161, "dur":4278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869475497, "dur":402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869475903, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771869475911, "dur":4866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869480826, "dur":715, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869481545, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771869481551, "dur":3378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869484974, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869485032, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771869485039, "dur":3618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869488703, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869488752, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771869488760, "dur":13179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869501987, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869502030, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771869502035, "dur":10323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869512404, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869512448, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771869512456, "dur":2215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869514716, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869514764, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771869514770, "dur":4501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869519557, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869519605, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771869519612, "dur":3377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869523031, "dur":816, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869523956, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771869523966, "dur":10401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693771869534411, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/sharedassets6.resource" }}
+,{ "pid":12345, "tid":1, "ts":1693771869534459, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771869534490, "dur":3400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/sharedassets6.resource" }}
+,{ "pid":12345, "tid":1, "ts":1693771869537936, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":1, "ts":1693771869537977, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771869537984, "dur":7674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":1, "ts":1693771869545704, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":1, "ts":1693771869545746, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771869545753, "dur":4901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":1, "ts":1693771869550698, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":1, "ts":1693771869550739, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771869550764, "dur":5251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":1, "ts":1693771869556211, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1693771869556301, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771869556308, "dur":6328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1693771869562751, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1693771869562841, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771869562868, "dur":3938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1693771869566865, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1693771869566912, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771869566920, "dur":2358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1693771869569330, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1693771869569378, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771869569384, "dur":1691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1693771869571124, "dur":1386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1693771869572514, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771869572520, "dur":3299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1693771869575891, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/level7" }}
+,{ "pid":12345, "tid":1, "ts":1693771869575939, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771869575945, "dur":2394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/level7" }}
+,{ "pid":12345, "tid":1, "ts":1693771869578380, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/level5" }}
+,{ "pid":12345, "tid":1, "ts":1693771869578422, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771869578427, "dur":1679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/level5" }}
+,{ "pid":12345, "tid":1, "ts":1693771869580155, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/level3" }}
+,{ "pid":12345, "tid":1, "ts":1693771869580201, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771869580208, "dur":2419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/level3" }}
+,{ "pid":12345, "tid":1, "ts":1693771869582668, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1693771869582710, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771869582716, "dur":2729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1693771869585496, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1693771869585551, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693771869585558, "dur":2887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1693771869588492, "dur":10554, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693771867601342, "dur":305, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693771867601648, "dur":9894, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693771867611551, "dur":287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1693771867611842, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693771867728051, "dur":83516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1693771867811655, "dur":337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1693771867811996, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693771867812005, "dur":80888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1693771867893466, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1693771867893678, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693771867893686, "dur":2683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1693771867896414, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1693771867896555, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693771867976401, "dur":234885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1693771868211404, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1693771868211616, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693771868211625, "dur":78523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1693771868290208, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693771868290346, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693771868290376, "dur":860887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693771869151317, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693771869151375, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693771869151383, "dur":248927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693771869400363, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693771869400423, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693771869400431, "dur":7504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693771869407980, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693771869408054, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693771869408060, "dur":2197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693771869410308, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693771869410374, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693771869410380, "dur":31339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693771869441775, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693771869441826, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693771869441833, "dur":2985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693771869444923, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693771869445055, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693771869445063, "dur":1932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693771869447039, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693771869447081, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693771869447089, "dur":3580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693771869450721, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693771869450767, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693771869450775, "dur":5269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693771869456090, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693771869456135, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693771869456143, "dur":1953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693771869458147, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693771869458197, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693771869458204, "dur":11571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693771869469827, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693771869470007, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693771869470016, "dur":3052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693771869473117, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693771869473302, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693771869473310, "dur":7140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693771869480626, "dur":426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693771869481056, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693771869481063, "dur":3373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693771869484615, "dur":2302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693771869486922, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693771869486932, "dur":2526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693771869489502, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693771869489715, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693771869489722, "dur":5946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693771869495720, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693771869495914, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693771869495921, "dur":2075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693771869498040, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693771869498087, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693771869498094, "dur":4370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693771869502510, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693771869502555, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693771869502560, "dur":2902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693771869505534, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693771869505580, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693771869505588, "dur":8889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693771869514525, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693771869514575, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693771869514582, "dur":4217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693771869518852, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693771869518902, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693771869518909, "dur":3319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693771869522281, "dur":448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693771869522734, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693771869522744, "dur":7916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693771869530708, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1693771869530755, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693771869530805, "dur":2219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1693771869533072, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/sharedassets7.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1693771869533117, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693771869533124, "dur":2208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/sharedassets7.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1693771869535372, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":2, "ts":1693771869535412, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693771869535416, "dur":3887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":2, "ts":1693771869539361, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":2, "ts":1693771869539451, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693771869539459, "dur":10690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":2, "ts":1693771869550196, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":2, "ts":1693771869550244, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693771869550249, "dur":6052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":2, "ts":1693771869556347, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1693771869556392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693771869556399, "dur":12796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1693771869569261, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1693771869569312, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693771869569321, "dur":4657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1693771869574113, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1693771869574197, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693771869574205, "dur":5605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1693771869579888, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/level4" }}
+,{ "pid":12345, "tid":2, "ts":1693771869579979, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693771869579987, "dur":1946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/level4" }}
+,{ "pid":12345, "tid":2, "ts":1693771869581980, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1693771869582025, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693771869582031, "dur":3276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1693771869585360, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1693771869585415, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693771869585422, "dur":2925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1693771869588398, "dur":10654, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693771867601272, "dur":355, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693771867601627, "dur":9984, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693771867611612, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1693771867611841, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693771867729242, "dur":82739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1693771867812035, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1693771867812172, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693771867812715, "dur":83026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1693771867895804, "dur":434, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1693771867896242, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693771867976451, "dur":234397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1693771868210898, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1693771868211021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693771868211028, "dur":78637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1693771868289732, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771868289917, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693771868290015, "dur":134140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771868424235, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771868424298, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693771868424598, "dur":9783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771868434435, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771868434511, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693771868434550, "dur":90557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771868525151, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771868525228, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693771868525235, "dur":723688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869248978, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869249028, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693771869249059, "dur":158571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869407677, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869407739, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693771869407745, "dur":3901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869411690, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869411741, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693771869411749, "dur":2088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869413879, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869413922, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693771869413961, "dur":1846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869415878, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869415929, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693771869415936, "dur":2179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869418167, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869418216, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693771869418224, "dur":2551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869420955, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869421128, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693771869421174, "dur":2958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869424189, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869424274, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693771869424282, "dur":2022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869426357, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869426404, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693771869426412, "dur":1897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869428371, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869428422, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693771869428430, "dur":2701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869431186, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869431263, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693771869431270, "dur":2206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869433529, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869433582, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693771869433589, "dur":1955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869435586, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869435628, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693771869435633, "dur":6117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869441803, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869441855, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693771869441863, "dur":3349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869445280, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869445329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693771869445336, "dur":3671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869449051, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869449100, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693771869449108, "dur":2562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869451717, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869451765, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693771869451773, "dur":5543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869457411, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869457461, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693771869457469, "dur":1712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869459229, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869459290, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693771869459297, "dur":2083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869461430, "dur":778, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869462212, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693771869462251, "dur":1662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869463955, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869464100, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693771869464106, "dur":2060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869466208, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869466362, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693771869466368, "dur":1244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869467655, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869467813, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693771869467828, "dur":2197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869470080, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869470235, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693771869470241, "dur":3875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869474163, "dur":787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869475001, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693771869475011, "dur":5671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869480741, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869480906, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693771869480913, "dur":1977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869482939, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869483141, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693771869483151, "dur":1952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869485154, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869485204, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693771869485212, "dur":3687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869488939, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869489106, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693771869489112, "dur":4174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869493332, "dur":621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869493996, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693771869494007, "dur":1887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869495938, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869495986, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693771869495992, "dur":2345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869498379, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869498422, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693771869498428, "dur":1976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869500453, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869500502, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693771869500510, "dur":3178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869503750, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869503798, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693771869503807, "dur":9864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869513717, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869513763, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693771869513770, "dur":3704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869517535, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869517582, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693771869517590, "dur":3101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869520731, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869520780, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693771869520785, "dur":8203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869529032, "dur":67467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869596504, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693771869597536, "dur":1423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693771869599005, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1693771869599014, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771867601322, "dur":314, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771867601636, "dur":9903, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771867611551, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1693771867611836, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771867808622, "dur":3402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1693771867812378, "dur":1953, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1693771867814336, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771867814345, "dur":166202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1693771867980602, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1693771867980816, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771868131391, "dur":80569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1693771868212488, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771868212700, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771868214049, "dur":158800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771868372903, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1693771868373056, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771868373063, "dur":29612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1693771868402744, "dur":12436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1693771868415188, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771868415791, "dur":18238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1693771868434144, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771868434207, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771868434284, "dur":257374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771868691703, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771868691757, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771868691765, "dur":557220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869249039, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869249091, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771869249099, "dur":152464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869401612, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869401665, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771869401672, "dur":6126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869407851, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869407900, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771869407907, "dur":2362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869410314, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869410358, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771869410365, "dur":2748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869413159, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869413214, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771869413222, "dur":1104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869414365, "dur":332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869414700, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771869414707, "dur":2063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869416817, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869416872, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771869416880, "dur":1293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869418222, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869418308, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771869418315, "dur":2807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869421168, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869421214, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771869421222, "dur":2768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869424037, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869424091, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771869424098, "dur":2265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869426415, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869426472, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771869426479, "dur":1814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869428341, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869428414, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771869428422, "dur":2417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869430893, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869430951, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771869430958, "dur":2229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869433266, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869433321, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771869433329, "dur":1684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869435064, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869435120, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771869435127, "dur":14216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869449394, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869449446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771869449452, "dur":2300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869451801, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869451847, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771869451852, "dur":4309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869456206, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869456262, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771869456267, "dur":3135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869459453, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869459643, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771869459649, "dur":1806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869461514, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869461560, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771869461568, "dur":1712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869463331, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869463591, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771869463598, "dur":1865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869465526, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869465706, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771869465714, "dur":1619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869467386, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869467554, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771869467566, "dur":1996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869469609, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869469778, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771869469785, "dur":1765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869471593, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869471744, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771869471751, "dur":7312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869479137, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869479299, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771869479307, "dur":3908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869483271, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869483319, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771869483325, "dur":1895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869485275, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869485321, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771869485328, "dur":4316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869489682, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869489810, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771869489815, "dur":5787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869495659, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869495834, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771869495842, "dur":2269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869498156, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869498204, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771869498209, "dur":1869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869500134, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869500181, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771869500188, "dur":1645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869501885, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869501934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771869501943, "dur":2712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869504703, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869504747, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771869504818, "dur":8935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869513797, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869513842, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771869513847, "dur":3415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869517312, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869517438, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771869517447, "dur":3065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869520559, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869520610, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771869520617, "dur":8383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693771869529043, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1693771869529222, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771869529717, "dur":1373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1693771869531137, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/sharedassets7.resource" }}
+,{ "pid":12345, "tid":4, "ts":1693771869531189, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771869531196, "dur":2038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/sharedassets7.resource" }}
+,{ "pid":12345, "tid":4, "ts":1693771869533279, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":4, "ts":1693771869533322, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771869533327, "dur":1790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":4, "ts":1693771869535160, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1693771869535201, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771869535207, "dur":3576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1693771869538828, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1693771869538870, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771869538877, "dur":10952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1693771869549877, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":4, "ts":1693771869549921, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771869549928, "dur":1712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":4, "ts":1693771869551686, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":4, "ts":1693771869551731, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771869551738, "dur":6318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":4, "ts":1693771869558103, "dur":500, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1693771869558609, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771869558617, "dur":11622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1693771869570373, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1693771869570581, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771869570588, "dur":1614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1693771869572306, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1693771869572404, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771869572413, "dur":5868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1693771869578332, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/level6" }}
+,{ "pid":12345, "tid":4, "ts":1693771869578378, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771869578384, "dur":2108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/level6" }}
+,{ "pid":12345, "tid":4, "ts":1693771869580535, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1693771869580578, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771869580583, "dur":2612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1693771869583248, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1693771869583306, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771869583312, "dur":4509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1693771869587873, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1693771869588020, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693771869588027, "dur":1067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alex/Desktop/Blablabla_Final/Blablabla_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1693771869589172, "dur":9858, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693771869606256, "dur":5013, "ph":"X", "name": "ProfilerWriteOutput" }
+,

@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Platform
+  - Fly
+  - Spike
+  - BoostJump
+  - WallJump
+  - JumpReset
+  - LoadPoint
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Ground
+  - Wall
+  - Player
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 2503098765
+    locked: 0
+  - name: Ground
+    uniqueID: 1604426475
+    locked: 0
+  - name: Spikes
+    uniqueID: 882510323
+    locked: 0
+  - name: BlockObjects
+    uniqueID: 1323616909
+    locked: 0
+  - name: TriggerObjects
+    uniqueID: 3444652289
+    locked: 0
+  - name: Background2
+    uniqueID: 145167693
+    locked: 0
+  - name: TrailRenderer
+    uniqueID: 3834039471
+    locked: 0
+  - name: Player
+    uniqueID: 536046879
+    locked: 0
+  - name: Background-Decorations
+    uniqueID: 3901515057
+    locked: 0
+  - name: Backgroundyes
+    uniqueID: 445843987
+    locked: 0
+  - name: BackgroundBlockField
+    uniqueID: 3121576717
+    locked: 0
